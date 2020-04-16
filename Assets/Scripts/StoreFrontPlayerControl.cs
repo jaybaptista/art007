@@ -55,10 +55,10 @@ public class StoreFrontPlayerControl : MonoBehaviour
             triggerUI.SetActive(false);
         }
 
-        if (Input.GetKey(KeyCode.T))
+        if (Input.GetKey(KeyCode.E))
         {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right);
-            Debug.DrawLine(transform.position, transform.right, Color.yellow);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position + transform.right, transform.position);
+            Debug.DrawLine(transform.position + transform.right, transform.position, Color.yellow);
 
             if (hit.collider != null && hit.collider.tag == "Character")
             {
@@ -88,13 +88,13 @@ public class StoreFrontPlayerControl : MonoBehaviour
             if (Input.GetKey(KeyCode.A))
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-            //transform.rotation = new Quaternion(0, 180, 0 ,0);
+            transform.rotation = new Quaternion(0, 180, 0, 0);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-            //transform.rotation = new Quaternion(0, 0, 0, 0);
+            transform.rotation = new Quaternion(0, 0, 0, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.W))

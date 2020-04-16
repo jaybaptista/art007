@@ -1089,7 +1089,7 @@ GameObject:
   - component: {fileID: 632865390}
   m_Layer: 0
   m_Name: character
-  m_TagString: Untagged
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1150,7 +1150,7 @@ MonoBehaviour:
   dialog:
     name: 
     sentences:
-    - "Please help me find my memories1\t\t\t\t"
+    - "Please help me find my memories!\t\t\t\t"
     - I don't want to forget...
     - Don't let the nightmare destroy you!
 --- !u!114 &632865390
