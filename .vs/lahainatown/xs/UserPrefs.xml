@@ -1,17 +1,14 @@
 ﻿<Properties StartupConfiguration="{527FF81A-11DE-55FD-6C7A-88FAFE562A12}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StoreFrontPlayerControl.cs">
-    <Files>
-      <File FileName="Assets/Scripts/StoreFrontPlayerControl.cs" Line="14" Column="19" />
-      <File FileName="Assets/Scripts/StoreFrontPlayerControl.cs" Line="125" Column="1" />
-      <File FileName="Assets/Scripts/StoreFrontPlayerControl.cs" Line="125" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="lahainatown" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="StoreFrontPlayerControl.cs" selected="True" />
+                <Node name="LevelOne" expanded="True">
+                  <Node name="TouchTeleporter.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -21,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="be45ab79-a867-4e36-8f58-a7be9e636c4d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cbf3c3cb-dd23-4c27-bbd6-e75b78fc23f0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
