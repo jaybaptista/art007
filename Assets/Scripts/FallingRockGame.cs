@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class FallingRockGame : ScoreManager
 {
   public GameObject player;
@@ -17,19 +17,25 @@ public class FallingRockGame : ScoreManager
   void Update()
   {
     scoreKeeper.text = base.score + "/5";
+
+    if (base.score >= 5) {
+        SceneManager.LoadScene("diag_1");
+    }
   }
 
   void LateUpdate()
   {
     fallingObjects = GameObject.FindGameObjectsWithTag("FallingObject").Length;
-    if (fallingObjects < 3)
+    if (fallingObjects < 4)
     {
         Debug.Log("Spawning... POP: " + fallingObjects);
       spawnSpike();
     }
-    else
+    
+    if (fallingObjects < 4)
     {
-      Debug.Log("More objects");
+      Debug.Log("Spawning... POP: " + fallingObjects);
+      spawnMemory();
     }
   }
   override public void resetScore()

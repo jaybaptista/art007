@@ -9,9 +9,6 @@ public class KillCollide : MonoBehaviour
     void Start() {
         manager = Object.FindObjectOfType<ScoreManager>();
     }
-    void Update() {
-
-    }
 
     void OnTriggerEnter2D(Collider2D other) {
     // Debug.Log("Collided with " + other.name);

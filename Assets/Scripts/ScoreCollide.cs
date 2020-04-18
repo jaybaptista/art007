@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class ScoreCollide : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+  public ScoreManager manager;
+
+  void Start()
+  {
+    manager = Object.FindObjectOfType<ScoreManager>();
+  }
+
+  void OnTriggerEnter2D(Collider2D other)
+  {
+    // Debug.Log("Collided with " + other.name);
+    if (other.tag == "Player")
     {
-        
+      Debug.Log("Player Point Scored");
+      manager.Iterate();
     }
 
-    // Update is called once per frame
-    void Update()
+    if (gameObject.tag == "FallingObject")
     {
-        
+      Destroy(gameObject);
     }
+  }
 }
