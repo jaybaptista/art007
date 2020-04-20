@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mini_1.unity
     guid: 749b19366cc474b81874c19939fdd641
+  - enabled: 1
+    path: Assets/Scenes/diag_1.unity
+    guid: 6254faa993f0946e3ac0469f8b3d2420
+  - enabled: 1
+    path: Assets/Scenes/beachfront.unity
+    guid: c86c98a85b03149efb239ff850cc0c62
   m_configObjects: {}

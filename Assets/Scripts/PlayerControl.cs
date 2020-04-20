@@ -87,7 +87,7 @@ public class PlayerControl : MonoBehaviour
             transform.rotation = new Quaternion(0, 0, 0, 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.W) && GetComponent<Rigidbody2D>().velocity.y == 0)
+        if (Input.GetKeyDown(KeyCode.W) && grounded)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpForce);
         }
@@ -98,6 +98,12 @@ public class PlayerControl : MonoBehaviour
         }
 
         anim.SetFloat("speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
+
+        if (GetCollision(groundCheck).gameObject.tag == "Tilemap") {
+            grounded = true;
+        } else {
+            grounded = false;
+        }
     }
 
     

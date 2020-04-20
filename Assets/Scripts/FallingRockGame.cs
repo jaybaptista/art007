@@ -11,14 +11,15 @@ public class FallingRockGame : ScoreManager
   public GameObject[] spawnLocations;
   public GameObject memory;
   public int fallingObjects;
+  
   void Start()
   {
   }
   void Update()
   {
-    scoreKeeper.text = base.score + "/5";
+    scoreKeeper.text = base.score + "/3";
 
-    if (base.score >= 5) {
+    if (base.score >= 3) {
         SceneManager.LoadScene("diag_1");
     }
   }

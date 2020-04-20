@@ -55,12 +55,12 @@
      <Compile Include="Assets\Scripts\Intro_LogoFadeIn.cs" />
      <Compile Include="Assets\Scripts\KillCollide.cs" />
      <Compile Include="Assets\Scripts\LevelOne\ShakeTree.cs" />
-     <Compile Include="Assets\Scripts\LevelOne\TouchTeleporter.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\ScoreCollide.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
+     <Compile Include="Assets\Scripts\TouchTeleporter.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.0f6/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
