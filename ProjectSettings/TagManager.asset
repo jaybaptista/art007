@@ -8,6 +8,7 @@ TagManager:
   - Interactable
   - FallingObject
   - Tilemap
+  - Rock
   layers:
   - Default
   - TransparentFX

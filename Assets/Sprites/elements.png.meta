@@ -19,7 +19,7 @@ TextureImporter:
     second: memory
   - first:
       213: -2165821876479576607
-    second: elements_5
+    second: memory_shred
   - first:
       213: 3035516792126375084
     second: car
@@ -37,7 +37,7 @@ TextureImporter:
     second: hand_interact
   - first:
       213: 7582964038499862110
-    second: elements_11
+    second: shovel_interact
   - first:
       213: -6123155731546979588
     second: elements_12
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elements_5
+      name: memory_shred
       rect:
         serializedVersion: 2
         x: 392
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elements_11
+      name: shovel_interact
       rect:
         serializedVersion: 2
         x: 311
