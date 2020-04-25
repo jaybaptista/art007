@@ -6,20 +6,24 @@ public class PickUpShovel : Interactable
 {
   // Start is called before the first frame update
   public bool triggered = false;
+  public int numberOfMems = 3;
   List<GameObject> rocks;
-  int[] rand = new int[3];
+  List<int> rand = new List<int>();
   void Start() {
     rocks = new List<GameObject>(GameObject.FindGameObjectsWithTag("Rock"));
-      for (int j = 0; j < rand.Length; j++) {
-          rand[j] = Random.Range(0, rocks.Count - 1);
-      }
-
+    for (int j = 0; j < numberOfMems; j++) {
+        int randNum = Random.Range(0, rocks.Count);
+        while (rand.Contains(randNum)) {
+        randNum = Random.Range(0, rocks.Count);
+        };
+        rand.Add(randNum);
+    }
+    
     List<GameObject> chooseRocks = rocks;
 
-    for (int k = 0; k < rand.Length; k++)
+    for (int k = 0; k < rand.Count; k++)
     {
       chooseRocks[rand[k]].GetComponent<HitRock>().hasMemory = true;
-      chooseRocks.Remove(chooseRocks[rand[k]]);
     }
   }
 

@@ -23,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/beachfront.unity
     guid: c86c98a85b03149efb239ff850cc0c62
+  - enabled: 1
+    path: Assets/Scenes/mini_2.unity
+    guid: 63ed4878829384737b6eaf6c3e2a87d4
+  - enabled: 1
+    path: Assets/Scenes/diag_2.unity
+    guid: 7fdeffc9c75b14f3998dfc34d6a280b4
+  - enabled: 1
+    path: Assets/Scenes/mini_3.unity
+    guid: 5f151e95da51b42489ca5c3ed9845a5c
+  - enabled: 1
+    path: Assets/Scenes/memorychasm.unity
+    guid: 285101022f7b5488f9f872343eccedbf
   m_configObjects: {}

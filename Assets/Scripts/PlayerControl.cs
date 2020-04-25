@@ -9,15 +9,11 @@ public class PlayerControl : MonoBehaviour
 
     public float moveSpeed = 2;
     public float jumpForce = 5;
-
     public bool grounded = true;
-
     public GameObject groundCheck = null;
     public GameObject footCollide = null;
     public GameObject topCollide = null;
-
     public GameObject interactUI;
-
     public Animator anim;
 
     void Start()
@@ -28,14 +24,6 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame 
     void Update()
     {
-        //Debug.DrawLine(transform.position, groundCheck.transform.position, Color.yellow);
-
-        //if (Physics2D.Linecast(groundCheck.transform.position, transform.position))
-        //{
-        //    RaycastHit2D hitPlatform = Physics2D.Linecast(groundCheck.transform.position, transform.position);
-        //    Debug.Log("TOUCHING " + hitPlatform.collider.name);
-        //}
-
         if (GetCollision(footCollide) != null && GetCollision(footCollide).gameObject.tag == "Interactable")
         {
             GetCollision(footCollide).gameObject.GetComponent<Interactable>().InProximity();
@@ -57,8 +45,6 @@ public class PlayerControl : MonoBehaviour
             interactUI.SetActive(false);
         }
 
-        // Dialog Interact
-
         if (Input.GetKey(KeyCode.E))
         {
             RaycastHit2D hit = Physics2D.Raycast(transform.position + transform.right, transform.position);
@@ -73,6 +59,12 @@ public class PlayerControl : MonoBehaviour
                     hitCharacter.startTalking();
                 }
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
+            moveSpeed = 2f + moveSpeed;
+        } else if (Input.GetKeyUp(KeyCode.LeftShift)) {
+            moveSpeed = moveSpeed - 2f;
         }
 
             if (Input.GetKey(KeyCode.A))

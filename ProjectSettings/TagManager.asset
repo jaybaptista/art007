@@ -9,6 +9,9 @@ TagManager:
   - FallingObject
   - Tilemap
   - Rock
+  - PlayerComponent
+  - Tree
+  - FallBlock
   layers:
   - Default
   - TransparentFX

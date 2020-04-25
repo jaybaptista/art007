@@ -52,18 +52,26 @@
      <Compile Include="Assets\Scripts\Dialog\WhosTalking.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\Intro_LogoFadeIn.cs" />
+     <Compile Include="Assets\Scripts\LevelManagers\FallingApartGame.cs" />
      <Compile Include="Assets\Scripts\LevelManagers\FallingRockGame.cs" />
+     <Compile Include="Assets\Scripts\LevelManagers\FracturedGame.cs" />
      <Compile Include="Assets\Scripts\LevelManagers\HittingRockGame.cs" />
      <Compile Include="Assets\Scripts\LevelManagers\KillCollide.cs" />
+     <Compile Include="Assets\Scripts\LevelManagers\MovingSpikeGame.cs" />
      <Compile Include="Assets\Scripts\LevelManagers\ScoreCollide.cs" />
      <Compile Include="Assets\Scripts\LevelSpecific\HitButton.cs" />
      <Compile Include="Assets\Scripts\LevelSpecific\HitRock.cs" />
      <Compile Include="Assets\Scripts\LevelSpecific\PickUpShovel.cs" />
+     <Compile Include="Assets\Scripts\LevelSpecific\ShakeRandomTree.cs" />
      <Compile Include="Assets\Scripts\LevelSpecific\ShakeTree.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\RespawnCollide.cs" />
+     <Compile Include="Assets\Scripts\RotateEffect.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
+     <Compile Include="Assets\Scripts\TeleporterCollide.cs" />
      <Compile Include="Assets\Scripts\TouchTeleporter.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.0f6/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -632,6 +640,42 @@
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{e8db9852-6a2d-9492-0082-15eacdad4592}</Project>
       <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
+      <Project>{72c5d06f-a1b4-6979-17ac-e81d13d1aef4}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{4626d3d1-0d97-ca13-7249-cdd43284c172}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{504efeb1-74cf-eebc-f249-452892d2a19c}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{7735777f-6759-8219-465f-7fdf58d65353}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{66194e2d-5867-9ad7-f144-015692f00e7a}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
+      <Project>{44bd66f5-063b-3d4c-feda-f367b60d1b70}</Project>
+      <Name>Unity.RenderPipelines.Universal.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{060d82db-06d6-3725-a659-a6b6308ecdc5}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{b633a0c0-49b8-424a-e350-1d5359f73da1}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{43441240-b49e-eb1d-be60-4e72c725bebe}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

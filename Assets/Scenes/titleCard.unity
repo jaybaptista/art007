@@ -439,7 +439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253301585}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.16, y: -0.07, z: 88.583336}
+  m_LocalPosition: {x: -3.13, y: -0.07, z: 88.583336}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -481,8 +481,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -161}
-  m_SizeDelta: {x: 168, y: 51.9}
+  m_AnchoredPosition: {x: 138, y: -53}
+  m_SizeDelta: {x: 228.3, y: 61.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1851427190
 MonoBehaviour:
@@ -504,7 +504,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+    m_NormalColor: {r: 0.22352943, g: 0.2627451, b: 0.24705884, a: 1}
     m_HighlightedColor: {r: 0.43529415, g: 0.3372549, b: 0.2901961, a: 1}
     m_PressedColor: {r: 0.454902, g: 0.33333334, b: 0.28235295, a: 1}
     m_SelectedColor: {r: 0.475, g: 0.33106062, b: 0.27588382, a: 1}
@@ -611,7 +611,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.09011215, g: 0.13869116, b: 0.23584908, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -704,8 +704,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: 19}
-  m_SizeDelta: {x: 586.5, y: 110}
+  m_AnchoredPosition: {x: 159, y: 63.75}
+  m_SizeDelta: {x: 392.4, y: 172.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2010288594
 MonoBehaviour:
@@ -720,7 +720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.32861245, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -732,7 +732,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 63
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

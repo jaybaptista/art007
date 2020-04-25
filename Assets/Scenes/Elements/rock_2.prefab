@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832582848820429190}
   - component: {fileID: 4320478184119136026}
+  - component: {fileID: 436746640805358117}
   m_Layer: 0
   m_Name: rock_2
   m_TagString: Interactable
@@ -45,7 +46,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012923777, y: 0.094774365}
+  m_Offset: {x: 0.027105808, y: 0.094774365}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -56,8 +57,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3532499, y: 0.81045127}
+  m_Size: {x: 2.1474366, y: 0.81045127}
   m_EdgeRadius: 0
+--- !u!114 &436746640805358117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3608502208046318596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 019f24055e54243e19a8c9ae8d14531b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactUI: {fileID: 0}
+  message: 
+  image: {fileID: 0}
+  UIText: {fileID: 0}
+  UISprite: {fileID: 0}
+  triggered: 0
+  hasMemory: 0
+  memory: {fileID: 0}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &7258239919495320992
 GameObject:
   m_ObjectHideFlags: 0

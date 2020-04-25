@@ -40,7 +40,7 @@ TextureImporter:
     second: shovel_interact
   - first:
       213: -6123155731546979588
-    second: elements_12
+    second: stool
   - first:
       213: -830853010422553840
     second: elements_13
@@ -49,13 +49,13 @@ TextureImporter:
     second: elements_14
   - first:
       213: 5190090530299845402
-    second: elements_15
+    second: left_arrow
   - first:
       213: 2844923009556453745
-    second: elements_16
+    second: down_arrow
   - first:
       213: 423605440508702846
-    second: elements_17
+    second: right_arrow
   - first:
       213: 6535756550885404928
     second: mart_night
@@ -97,13 +97,34 @@ TextureImporter:
     second: dagger_1
   - first:
       213: -4199326237956491391
-    second: elements_2
+    second: btn_green
   - first:
       213: -5778144981159808865
     second: elements_4
   - first:
       213: -1185156069853120339
     second: tree
+  - first:
+      213: -5849149280090263381
+    second: elements_5
+  - first:
+      213: -8730160822912428889
+    second: elements_6
+  - first:
+      213: 1501621291798588485
+    second: elements_6
+  - first:
+      213: 803835611653595571
+    second: elements_7
+  - first:
+      213: 4923927942972791783
+    second: btn_white
+  - first:
+      213: 2269386229506190332
+    second: btn_blue
+  - first:
+      213: -3943431499004486690
+    second: btn_red
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -452,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elements_12
+      name: stool
       rect:
         serializedVersion: 2
         x: 384
@@ -515,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elements_15
+      name: left_arrow
       rect:
         serializedVersion: 2
         x: 168
@@ -536,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elements_16
+      name: down_arrow
       rect:
         serializedVersion: 2
         x: 240
@@ -557,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elements_17
+      name: right_arrow
       rect:
         serializedVersion: 2
         x: 312
@@ -581,8 +602,8 @@ TextureImporter:
       name: mart_night
       rect:
         serializedVersion: 2
-        x: 500
-        y: 192
+        x: 499
+        y: 191
         width: 332
         height: 168
       alignment: 0
@@ -788,111 +809,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elements_0
-      rect:
-        serializedVersion: 2
-        x: 858
-        y: 144
-        width: 17
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7eb5384406e455440800000000000000
-      internalID: 4923927942972791783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elements_3
-      rect:
-        serializedVersion: 2
-        x: 821
-        y: 131
-        width: 51
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edb50c1e1fd1649c0800000000000000
-      internalID: -3943431499004486690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elements_1
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 139
-        width: 92
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfb21e380ca7e7f10800000000000000
-      internalID: 2269386229506190332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elements_2
-      rect:
-        serializedVersion: 2
-        x: 821
-        y: 388
-        width: 77
-        height: 22
-      alignment: 9
-      pivot: {x: 3.0304475, y: -8.097979}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18730aa190ff8b5c0800000000000000
-      internalID: -4199326237956491391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elements_4
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 145
-        width: 68
-        height: 121
-      alignment: 9
-      pivot: {x: 0.7509806, y: 0.899633}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f907349e0c7efcfa0800000000000000
-      internalID: -5778144981159808865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: tree
       rect:
         serializedVersion: 2
@@ -909,6 +825,90 @@ TextureImporter:
       bones: []
       spriteID: da8b10d65da7d8fe0800000000000000
       internalID: -1185156069853120339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_white
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 436
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb5384406e455440800000000000000
+      internalID: 4923927942972791783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_blue
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 364
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb21e380ca7e7f10800000000000000
+      internalID: 2269386229506190332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_green
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 288
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18730aa190ff8b5c0800000000000000
+      internalID: -4199326237956491391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_red
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 212
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb50c1e1fd1649c0800000000000000
+      internalID: -3943431499004486690
       vertices: []
       indices: 
       edges: []

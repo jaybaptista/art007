@@ -13,7 +13,7 @@ public class HittingRockGame : ScoreManager
 
     if (base.score >= 3)
     {
-      SceneManager.LoadScene("diag_1");
+      SceneManager.LoadScene("mini_2");
     }
   }
 }
